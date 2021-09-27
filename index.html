@@ -6,21 +6,36 @@
     <title>repl.it</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
-  
   <body>
-      <header></header>
+    <img src="banner1.png" class="banner">
+    <img src="banner2.png" class="banner">
+      
       <nav></nav>
+      <header></header>
 
-      <div id="image1"></div>
+      <div id="image1" data-stellar-background-ratio="0.5" ></div>
       <section></section>
 
-      <div id="image2"></div>
+      <div id="image2" data-stellar-background-ratio="0.5" ></div>
       <section></section>
 
-      <div id="image3"></div>
+      <div id="image3" data-stellar-background-ratio="0.5"></div>
       <section></section>
       <footer></footer>
 
-    <script src="script.js"></script>
+    <!--parallax plugin --> 
+<script
+  src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script>
+$.stellar();
+
+</script>
+
+  <script src="script.js"></script>
+
+
+
+
   </body>
 </html>
