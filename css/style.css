@@ -35,11 +35,17 @@ section {
   height: 10px;
 }
 
+.banner1 {
 
+  display: block;
+  margin: auto;
+  max-width: 100%
+}
 
+.banner2 {
+display: none;
 
-
-
+}
 @media screen and (max-width: 600px) {
 #image1 {
   display: none;
@@ -60,13 +66,11 @@ section {
   height: 10px;
 }
   
-.banner {
-  display: block;
-  margin: auto;
-  max-width: 100%
+.banner1 {
+ display: none;
 }
 
-.banner {
+.banner2 {
   display: block;
   margin: auto;
   max-width: 100%
